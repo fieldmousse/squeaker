@@ -348,12 +348,12 @@ function command(stub, stubs, { pred, id, arg }) {
     commands[pred].call(this, stub, stubs, { id, arg });
 }
 
-process.stdin.setEncoding('utf8');
-let input = "";
-process.stdin.on('readable', () => {
-    input += process.stdin.read() || "";
-});
-process.stdin.on('end', () => {
-    const result = resolveCommands(parseInput(input));
-    process.stdout.write(JSON.stringify(result));
-});
+/**
+ * Convert squeaker source code to JSON
+ * @param {string} source text in squeaker
+ * @returns {Object} squeaker parsed JSON
+ */
+module.exports = function squeaker(source) {
+    const result = resolveCommands(parseInput(source));
+    return JSON.stringify(result);
+}
