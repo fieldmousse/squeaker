@@ -1,0 +1,7 @@
+Mouse:
+The mouse squeaked agitatedly as he did a little jig on the table
+- claim(There is a mouse) quote(The mouse)
+- claim(The mouse is squeaking) quote(The mouse squeaked)
+- claim(The mouse is agitated) quote(The mouse squeaked agitatedly)
+- claim(The mouse is doing a little jig) quote(The mouse ... as he did a little jig)
+- claim(The mouse is on the table) quote(The mouse ... he ... on the table)

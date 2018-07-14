@@ -1,0 +1,19 @@
+{
+  "name": "squeaker",
+  "version": "1.0.0",
+  "description": "Dialogue Annotation Language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fieldmousse/squeaker.git"
+  },
+  "author": "FieldMousse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fieldmousse/squeaker/issues"
+  },
+  "homepage": "https://github.com/fieldmousse/squeaker#readme"
+}
